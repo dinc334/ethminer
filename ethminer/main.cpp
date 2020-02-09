@@ -15,6 +15,8 @@
     along with ethminer.  If not, see <http://www.gnu.org/licenses/>.
 */
 
+
+
 #include <CLI/CLI.hpp>
 
 #include <ethminer/buildinfo.h>
@@ -70,6 +72,8 @@ struct MiningChannel : public LogChannel
 #if ETH_DBUS
 #include <ethminer/DBusInt.h>
 #endif
+
+// test pull request
 
 class MinerCLI
 {
